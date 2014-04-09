@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="19.1.0" >
+        <source path="/home/lukas/dev/DirectUC/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/lukas/dev/DirectUC/app/src/main/assets" >
+            <file
+                name="fonts/Roboto-Light.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-Light.ttf" />
+            <file
+                name="fonts/Roboto-BlackItalic.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-BlackItalic.ttf" />
+            <file
+                name="fonts/Roboto-Thin.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-Thin.ttf" />
+            <file
+                name="fonts/Roboto-Bold.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-Bold.ttf" />
+            <file
+                name="fonts/Roboto-Black.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-Black.ttf" />
+            <file
+                name="fonts/Roboto-Medium.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-Medium.ttf" />
+            <file
+                name="fonts/Roboto-ThinItalic.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-ThinItalic.ttf" />
+            <file
+                name="fonts/Roboto-BoldItalic.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-BoldItalic.ttf" />
+            <file
+                name="fonts/Roboto-Italic.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-Italic.ttf" />
+            <file
+                name="fonts/Roboto-Regular.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-Regular.ttf" />
+            <file
+                name="fonts/Roboto-MediumItalic.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-MediumItalic.ttf" />
+            <file
+                name="fonts/Roboto-LightItalic.ttf"
+                path="/home/lukas/dev/DirectUC/app/src/main/assets/fonts/Roboto-LightItalic.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/lukas/dev/DirectUC/app/src/debug/assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_fondo">#6086d8</color>
+    <color name="color_blanco">#ffffff</color>
+    <color name="color_letra_footer">#3C000000</color>
+    <color name="transparente">#806086d8 </color>
+    <color name="color_azul_claro">#819FE0</color>
+    <color name="color_blanco_trans_30">#4dffffff</color>
+    <color name="color_azul_oscuro">#4a6ab3</color>
+</resources>

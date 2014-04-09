@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/linearlayout_viewflipper">
+
+    <Button
+            android:text="@string/boton_webcursos"
+            android:id="@+id/button_webcursos"
+            style="@style/boton_login_servicio"/>
+
+</LinearLayout><!-- From: file:/home/lukas/dev/DirectUC/app/src/main/res/layout/layout_boton_webcursos.xml -->

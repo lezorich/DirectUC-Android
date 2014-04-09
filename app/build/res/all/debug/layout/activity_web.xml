@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    tools:context=".WebActivity" >
+
+    <com.directuc.android.DirectUCWebView
+        android:id="@+id/webView_ing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_webView"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progress_horizontal_holo_dark" />
+
+</RelativeLayout><!-- From: file:/home/lukas/dev/DirectUC/app/src/main/res/layout/activity_web.xml -->

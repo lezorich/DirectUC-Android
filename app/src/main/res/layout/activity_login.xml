@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    android:padding="16dp"
+    tools:context="com.directuc.android.com.directuc.android.views.InitActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <EditText
+        android:id="@+id/editText_loginActivity_usuario_uc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="usuario uc"
+        android:inputType="textPersonName"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/LoginActivity_textView_title"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/editText_loginActivity_passwrod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_loginActivity_usuario_uc"
+        android:layout_alignRight="@+id/editText_loginActivity_usuario_uc"
+        android:layout_below="@+id/editText_loginActivity_usuario_uc"
+        android:layout_marginTop="8dp"
+        android:hint="contraseña"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/LoginActivity_textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="DirectUC"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:textColor="@color/color_blanco"
+        android:layout_marginTop="50dp"/>
+    
+    <CheckBox
+        android:id="@+id/checkBox_Recordar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recordar usuario"
+        android:layout_below="@+id/viewFlipper_login"
+        android:layout_alignLeft="@+id/imageButton_prev"
+        android:layout_alignStart="@+id/viewFlipper_login"
+        android:layout_marginTop="@dimen/EspacioEntreElem"/>
+
+    <TextView
+        android:id="@+id/textView_loginActivity_author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/footer"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/color_blanco_trans_30" />
+
+    <com.directuc.android.DirectUCViewFlipper
+        android:id="@+id/viewFlipper_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_loginActivity_passwrod"
+        android:layout_marginTop="@dimen/EspacioEntreElem"
+        android:layout_toRightOf="@+id/imageButton_prev"
+        android:layout_toLeftOf="@+id/imageButton_next">
+
+        <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_boton_portaluc"/>
+
+        <include
+                layout="@layout/layout_boton_webcursos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+    </com.directuc.android.DirectUCViewFlipper>
+
+    <ImageButton
+            android:layout_width="@dimen/Minimo"
+            android:layout_height="@dimen/Minimo"
+            android:id="@+id/imageButton_prev"
+            android:layout_below="@+id/editText_loginActivity_passwrod"
+            android:layout_alignLeft="@+id/editText_loginActivity_passwrod"
+            android:src="@drawable/ic_navigation_previous_item"
+            android:background="@drawable/transparent_button"
+            android:layout_alignTop="@+id/viewFlipper_login" />
+
+    <ImageButton
+            android:layout_width="@dimen/Minimo"
+            android:layout_height="@dimen/Minimo"
+            android:id="@+id/imageButton_next"
+            android:src="@drawable/ic_navigation_next_item"
+            android:layout_alignRight="@+id/editText_loginActivity_passwrod"
+            android:layout_below="@+id/editText_loginActivity_passwrod"
+            android:background="@drawable/transparent_button"
+            android:layout_alignTop="@+id/viewFlipper_login"/>
+
+    <ImageButton
+            android:id="@+id/imageButton_Settings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/transparent_button"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_action_settings" />
+
+</RelativeLayout>
+
